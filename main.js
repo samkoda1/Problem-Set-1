@@ -29,8 +29,7 @@ for(const id of getAllHoleIds()) {
             document.getElementById('score-display').textContent = `Score: ${score}`;
     //          4. If the score is 45 or higher, stop the game (by clearing the interval)
             if (score >= 45) {
-                clearInterval(interval); // Stop the mole interval
-                alert('Congratulations! You won the game!');
+                clearInterval(interval);
             }
         }
     });
